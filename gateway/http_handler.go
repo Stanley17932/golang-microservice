@@ -15,6 +15,10 @@ func (h *handler) registerRoutes(mux *http.ServeMux) {
 		h.HandleCreateOrder)
 }
 
-func (h *handler) HandleCreateOrder() {
+func (h *handler) HandleCreateOrder() {w http.ResponseWriter, 
+	r *http.Request) {
+	// get customerID from request
+
+}
 
 }
