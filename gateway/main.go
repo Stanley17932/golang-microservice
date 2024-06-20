@@ -5,8 +5,8 @@ import (
 	"net/http"
 )
 
-const (
-	httpAddr = ":8080"
+var (
+	httpAddr = common.Evn("HTTP_ADDR", ":3000")
 )
 
 // main is the entry point for the application.
